@@ -1,0 +1,7 @@
+:root {
+  --bg: 0, 0%, 100%;
+}
+
+.couleurFond {
+  background: hsl(var(--bg));
+}

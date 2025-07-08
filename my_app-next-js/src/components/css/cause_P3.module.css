@@ -1,0 +1,31 @@
+.marquee {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.marqueeContent {
+    display: flex;
+    animation: marquee 20s linear infinite;
+}
+
+.marquee.paused .marqueeContent {
+    animation-play-state: paused; /* Arrête l'animation sur survol */
+}
+
+@keyframes marquee {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+.no-scrollbar {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE 10+ */
+}
+.no-scrollbar::-webkit-scrollbar {
+  display: none; /* Chrome/Safari/Webkit */
+}
