@@ -1,0 +1,29 @@
+.slider {
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+}
+
+.slideTrack {
+  display: flex;
+  width: calc(250px * 20); /* largeur estimée pour 10 images × 2 (duplicat) */
+  animation: scroll 40s linear infinite;
+}
+
+.slide {
+  flex: 0 0 auto;
+
+  width: 250px;
+  margin-right: 20px;
+}
+
+.slide img {
+  height: auto;
+  display: block;
+  border-radius: 10px;
+}
+
+@keyframes scroll {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}

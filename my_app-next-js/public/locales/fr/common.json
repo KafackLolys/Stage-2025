@@ -1,0 +1,53 @@
+{
+    "welcome": "Bienvenue",
+    "description": "Ceci est un exemple de changement de langue.",
+    "search_placeholder": "Rechercher...",
+    "connect_button": "Se connecter",
+    "instawall": "InstaWall",
+    "my_creations": "Mes Créations",
+    "about": "À propos",
+    "link1": "Lien 1",
+    "link2": "Lien 2",
+    "dropdown_toggle": "Ouvrir le menu",
+    "dropdown_close": "Fermer le menu",
+    "p1_introduction": {
+        "title": {
+            "rediscover": "Redécouvrez",
+            "the_post_cart": "la carte postale,",
+            "p1": "comme vous l’avez toujours",
+            "p2": "connue!"
+        },
+        "description": {
+            "because": "Parce que",
+            "memory": "les plus beaux souvenirs",
+            "better": "méritent mieux que le digital,",
+            "eazypostcard": "EazyPostCard",
+            "transform": "transforme vos instants précieux en",
+            "post_cart": "cartes postales",
+            "a": "à",
+            "send": "envoyer aux quatre coins du",
+            "world": "monde"
+        },
+        "button": "Commencer à créer"
+    },
+    
+    "p2_carte": {
+        "header": {
+            "title1": "Partagez vos",
+            "title2": "moments",
+            "title3": "précieux",
+            "description": "Dans un monde où nos plus beaux instants restent figés dans nos téléphones, EazyPostCard vous permet de leur donner une seconde vie. Avec EazyPostCard, transformez vos photos en véritables cartes postales et envoyez-les à travers le monde, en quelques clics."
+        },
+        "categories": {
+            "populaires": "Populaires",
+            "voyages": "Voyages",
+            "famille": "Famille",
+            "fetesReligieuses": "Fêtes Religieuses",
+            "nouvelAn": "Nouvel An",
+            "soutiens": "Soutiens"
+        },
+        "buttons": {
+            "showAll": "Afficher tous les designs"
+        }
+    }
+}

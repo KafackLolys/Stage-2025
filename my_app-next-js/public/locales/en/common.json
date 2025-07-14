@@ -1,0 +1,50 @@
+{
+    "description": "This is an example of changing language.",
+    "search_placeholder": "Search...",
+    "connect_button": "Login",
+    "instawall": "InstaWall",
+    "my_creations": "My Creations",
+    "about": "About",
+    "link1": "Link 1",
+    "link2": "Link 2",
+    "dropdown_toggle": "Open menu",
+    "dropdown_close": "Close menu",
+    "p1_introduction": {
+        "title": {
+            "rediscover": "Rediscover",
+            "the_post_cart": "the postcard,",
+            "p1": "just as you've always",
+            "p2": "known it!"
+        },
+        "description": {
+            "because": "Because",
+            "memory": "the most beautiful memories",
+            "better": "deserve better than digital,",
+            "eazypostcard": "EazyPostCard",
+            "transform": "transforms your precious moments into",
+            "post_cart": "postcards",
+            "a": "",
+            "send": "to send around the",
+            "world": "world"
+        },
+        "button": "Start creating"
+    },
+    
+    "p2_carte": {
+        "header": {
+            "title": "Share your moments, create unforgettable memories.",
+            "description": "In a world where our most beautiful moments stay trapped in our phones, EazyPostCard gives them a second life. With EazyPostCard, transform your photos into real postcards and send them around the world in just a few clicks."
+        },
+        "categories": {
+            "populaires": "Popular",
+            "voyages": "Travels",
+            "famille": "Family",
+            "fetesReligieuses": "Religious Holidays",
+            "nouvelAn": "New Year",
+            "soutiens": "Support"
+        },
+        "buttons": {
+            "showAll": "Show all designs"
+        }
+    }
+}
