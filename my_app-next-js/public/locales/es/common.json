@@ -1,0 +1,50 @@
+{
+    "welcome": "Bienvenido",
+    "description": "Este es un ejemplo de cambio de idioma.",
+    "search_placeholder": "Buscar...",
+    "connect_button": "Conectar",
+    "instawall": "InstaWall",
+    "my_creations": "Mis Creaciones",
+    "about": "Acerca de",
+    "link1": "Enlace 1",
+    "link2": "Enlace 2",
+    "dropdown_toggle": "Abrir menú",
+    "dropdown_close": "Cerrar menú",
+    "p1_introduction": {
+        "title": {
+            "rediscover": "Redescubre",
+            "the_post_cart": "la postal,",
+            "p1": "tal como siempre la",
+            "p2": "has conocido!"
+        },
+        "description": {
+            "because": "Porque",
+            "memory": "los recuerdos más hermosos",
+            "better": "merecen algo mejor que lo digital,",
+            "eazypostcard": "EazyPostCard",
+            "transform": "transforma tus momentos preciosos en",
+            "post_cart": "postales",
+            "a": "para",
+            "send": "enviar por todo el",
+            "world": "mundo"
+        },
+        "button": "Comenzar a crear"
+    },
+    "p2_carte": {
+        "header": {
+            "title": "Comparte tus momentos, crea recuerdos inolvidables.",
+            "description": "En un mundo donde nuestros momentos más hermosos se quedan atrapados en nuestros teléfonos, EazyPostCard les da una segunda vida. Con EazyPostCard, transforma tus fotos en postales reales y envíalas por todo el mundo con solo unos clics."
+        },
+        "categories": {
+            "populaires": "Populares",
+            "voyages": "Viajes",
+            "famille": "Familia",
+            "fetesReligieuses": "Fiestas Religiosas",
+            "nouvelAn": "Año Nuevo",
+            "soutiens": "Apoyo"
+        },
+        "buttons": {
+            "showAll": "Mostrar todos los diseños"
+        }
+    }
+} 

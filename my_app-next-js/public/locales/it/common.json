@@ -1,0 +1,50 @@
+{
+    "welcome": "Benvenuto",
+    "description": "Questo è un esempio di cambio lingua.",
+    "search_placeholder": "Cerca...",
+    "connect_button": "Connetti",
+    "instawall": "InstaWall",
+    "my_creations": "Le Mie Creazioni",
+    "about": "Chi Siamo",
+    "link1": "Link 1",
+    "link2": "Link 2",
+    "dropdown_toggle": "Apri menu",
+    "dropdown_close": "Chiudi menu",
+    "p1_introduction": {
+        "title": {
+            "rediscover": "Riscopri",
+            "the_post_cart": "la cartolina,",
+            "p1": "proprio come l'hai sempre",
+            "p2": "conosciuta!"
+        },
+        "description": {
+            "because": "Perché",
+            "memory": "i ricordi più belli",
+            "better": "meritano qualcosa di meglio del digitale,",
+            "eazypostcard": "EazyPostCard",
+            "transform": "trasforma i tuoi momenti preziosi in",
+            "post_cart": "cartoline",
+            "a": "da",
+            "send": "inviare in tutto il",
+            "world": "mondo"
+        },
+        "button": "Inizia a creare"
+    },
+    "p2_carte": {
+        "header": {
+            "title": "Condividi i tuoi momenti, crea ricordi indimenticabili.",
+            "description": "In un mondo dove i nostri momenti più belli rimangono intrappolati nei nostri telefoni, EazyPostCard dà loro una seconda vita. Con EazyPostCard, trasforma le tue foto in vere cartoline e inviale in tutto il mondo con pochi clic."
+        },
+        "categories": {
+            "populaires": "Popolari",
+            "voyages": "Viaggi",
+            "famille": "Famiglia",
+            "fetesReligieuses": "Feste Religiose",
+            "nouvelAn": "Capodanno",
+            "soutiens": "Supporto"
+        },
+        "buttons": {
+            "showAll": "Mostra tutti i design"
+        }
+    }
+} 

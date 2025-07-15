@@ -12,52 +12,52 @@ const P2_Carte = () => {
         image: string;
     };
     const populaires: Cart[] = [
-        { id: 1, label: "Carte Postale", image: "EazyPostCart/images/populaires.png" },
-        { id: 2, label: "Carte Postale", image: "EazyPostCart/images/Frame 1171275401.png" },
-        { id: 3, label: "Carte Postale", image: "EazyPostCart/images/Frame 1171275400.png" },
-        { id: 4, label: "Carte Postale", image: "EazyPostCart/images/Frame 1171275393.png" },
-        { id: 5, label: "Carte Postale", image: "EazyPostCart/images/Frame 1171275398.png" },
-        { id: 6, label: "Carte Postale", image: "EazyPostCart/images/Frame 1171275397.png" }
+        { id: 1, label: "Carte Postale", image: "/EazyPostCart/images/populaires.png" },
+        { id: 2, label: "Carte Postale", image: "/EazyPostCart/images/Frame 1171275401.png" },
+        { id: 3, label: "Carte Postale", image: "/EazyPostCart/images/Frame 1171275400.png" },
+        { id: 4, label: "Carte Postale", image: "/EazyPostCart/images/Frame 1171275393.png" },
+        { id: 5, label: "Carte Postale", image: "/EazyPostCart/images/Frame 1171275398.png" },
+        { id: 6, label: "Carte Postale", image: "/EazyPostCart/images/Frame 1171275397.png" }
     ];
     const voyages: Cart[] = [
-        { id: 1, label: "Carte Postale", image: "EazyPostCart/images/voyages.png" },
-        { id: 2, label: "Carte Postale", image: "EazyPostCart/images/Frame 1171275401.png" },
-        { id: 3, label: "Carte Postale", image: "EazyPostCart/images/Frame 1171275400.png" },
-        { id: 4, label: "Carte Postale", image: "EazyPostCart/images/Frame 1171275393.png" },
-        { id: 5, label: "Carte Postale", image: "EazyPostCart/images/Frame 1171275398.png" },
-        { id: 6, label: "Carte Postale", image: "EazyPostCart/images/Frame 1171275397.png" }
+        { id: 1, label: "Carte Postale", image: "/EazyPostCart/images/voyages.png" },
+        { id: 2, label: "Carte Postale", image: "/EazyPostCart/images/Frame 1171275401.png" },
+        { id: 3, label: "Carte Postale", image: "/EazyPostCart/images/Frame 1171275400.png" },
+        { id: 4, label: "Carte Postale", image: "/EazyPostCart/images/Frame 1171275393.png" },
+        { id: 5, label: "Carte Postale", image: "/EazyPostCart/images/Frame 1171275398.png" },
+        { id: 6, label: "Carte Postale", image: "/EazyPostCart/images/Frame 1171275397.png" }
     ];
     const famille: Cart[] = [
-        { id: 1, label: "Carte Postale", image: "EazyPostCart/images/famille.png" },
-        { id: 2, label: "Carte Postale", image: "EazyPostCart/images/Frame 1171275401.png" },
-        { id: 3, label: "Carte Postale", image: "EazyPostCart/images/Frame 1171275400.png" },
-        { id: 4, label: "Carte Postale", image: "EazyPostCart/images/Frame 1171275393.png" },
-        { id: 5, label: "Carte Postale", image: "EazyPostCart/images/Frame 1171275398.png" },
-        { id: 6, label: "Carte Postale", image: "EazyPostCart/images/Frame 1171275397.png" }
+        { id: 1, label: "Carte Postale", image: "/EazyPostCart/images/famille.png" },
+        { id: 2, label: "Carte Postale", image: "/EazyPostCart/images/Frame 1171275401.png" },
+        { id: 3, label: "Carte Postale", image: "/EazyPostCart/images/Frame 1171275400.png" },
+        { id: 4, label: "Carte Postale", image: "/EazyPostCart/images/Frame 1171275393.png" },
+        { id: 5, label: "Carte Postale", image: "/EazyPostCart/images/Frame 1171275398.png" },
+        { id: 6, label: "Carte Postale", image: "/EazyPostCart/images/Frame 1171275397.png" }
     ];
     const fetesReligieuses: Cart[] = [
-        { id: 1, label: "Carte Postale", image: "EazyPostCart/images/fetesReligieuses.png" },
-        { id: 2, label: "Carte Postale", image: "EazyPostCart/images/Frame 1171275401.png" },
-        { id: 3, label: "Carte Postale", image: "EazyPostCart/images/Frame 1171275400.png" },
-        { id: 4, label: "Carte Postale", image: "EazyPostCart/images/Frame 1171275393.png" },
-        { id: 5, label: "Carte Postale", image: "EazyPostCart/images/Frame 1171275398.png" },
-        { id: 6, label: "Carte Postale", image: "EazyPostCart/images/Frame 1171275397.png" }
+        { id: 1, label: "Carte Postale", image: "/EazyPostCart/images/fetesReligieuses.png" },
+        { id: 2, label: "Carte Postale", image: "/EazyPostCart/images/Frame 1171275401.png" },
+        { id: 3, label: "Carte Postale", image: "/EazyPostCart/images/Frame 1171275400.png" },
+        { id: 4, label: "Carte Postale", image: "/EazyPostCart/images/Frame 1171275393.png" },
+        { id: 5, label: "Carte Postale", image: "/EazyPostCart/images/Frame 1171275398.png" },
+        { id: 6, label: "Carte Postale", image: "/EazyPostCart/images/Frame 1171275397.png" }
     ];
     const nouvelAn: Cart[] = [
-        { id: 1, label: "Carte Postale", image: "EazyPostCart/images/nouvelAn.png" },
-        { id: 2, label: "Carte Postale", image: "EazyPostCart/images/Frame 1171275401.png" },
-        { id: 3, label: "Carte Postale", image: "EazyPostCart/images/Frame 1171275400.png" },
-        { id: 4, label: "Carte Postale", image: "EazyPostCart/images/Frame 1171275393.png" },
-        { id: 5, label: "Carte Postale", image: "EazyPostCart/images/Frame 1171275398.png" },
-        { id: 6, label: "Carte Postale", image: "EazyPostCart/images/Frame 1171275397.png" }
+        { id: 1, label: "Carte Postale", image: "/EazyPostCart/images/nouvelAn.png" },
+        { id: 2, label: "Carte Postale", image: "/EazyPostCart/images/Frame 1171275401.png" },
+        { id: 3, label: "Carte Postale", image: "/EazyPostCart/images/Frame 1171275400.png" },
+        { id: 4, label: "Carte Postale", image: "/EazyPostCart/images/Frame 1171275393.png" },
+        { id: 5, label: "Carte Postale", image: "/EazyPostCart/images/Frame 1171275398.png" },
+        { id: 6, label: "Carte Postale", image: "/EazyPostCart/images/Frame 1171275397.png" }
     ];
     const soutiens: Cart[] = [
-        { id: 1, label: "Carte Postale", image: "EazyPostCart/images/soutiens.png" },
-        { id: 2, label: "Carte Postale", image: "EazyPostCart/images/Frame 1171275401.png" },
-        { id: 3, label: "Carte Postale", image: "EazyPostCart/images/Frame 1171275400.png" },
-        { id: 4, label: "Carte Postale", image: "EazyPostCart/images/Frame 1171275393.png" },
-        { id: 5, label: "Carte Postale", image: "EazyPostCart/images/Frame 1171275398.png" },
-        { id: 6, label: "Carte Postale", image: "EazyPostCart/images/Frame 1171275397.png" }
+        { id: 1, label: "Carte Postale", image: "/EazyPostCart/images/soutiens.png" },
+        { id: 2, label: "Carte Postale", image: "/EazyPostCart/images/Frame 1171275401.png" },
+        { id: 3, label: "Carte Postale", image: "/EazyPostCart/images/Frame 1171275400.png" },
+        { id: 4, label: "Carte Postale", image: "/EazyPostCart/images/Frame 1171275393.png" },
+        { id: 5, label: "Carte Postale", image: "/EazyPostCart/images/Frame 1171275398.png" },
+        { id: 6, label: "Carte Postale", image: "/EazyPostCart/images/Frame 1171275397.png" }
     ];
     const [activeCategory, setActiveCategory] = useState<'populaires' | 'voyages' | 'famille' | 'fetesReligieuses' | 'nouvelAn' | 'soutiens'>('populaires');
     const getCategoryData = () => {

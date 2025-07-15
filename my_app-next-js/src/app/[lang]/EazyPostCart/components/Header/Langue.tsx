@@ -1,30 +1,56 @@
 'use client';
 
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
+import { useTranslation } from 'next-i18next';
+import { useRouter, usePathname } from 'next/navigation';
 
 interface LangOption {
     label: string;
     flag: string;
 }
+type Lang = 'fr' | 'en' | 'es' | 'it';
 
-const LangueFooter: React.FC = () => {
+const Langue: React.FC = () => {
+    const { i18n, t } = useTranslation('common');
+    const router = useRouter();
+    const pathname = usePathname();
     const [isOpen, setIsOpen] = useState<boolean>(false);
-    const [selectedLang, setSelectedLang] = useState<'fr' | 'en' | 'es' | 'it'>('fr'); // Langue par défaut
+    const [selectedLang, setSelectedLang] = useState<Lang>('fr');
 
-    const handleLangChange = (lang: 'fr' | 'en' | 'es' | 'it') => {
-        setSelectedLang(lang);
-        setIsOpen(false); // Ferme le menu après la sélection
-    };
+    // Extraire la langue actuelle de l'URL
+    useEffect(() => {
+        const currentLang = pathname.split('/')[1] as Lang;
+        if (['fr', 'en', 'es', 'it'].includes(currentLang)) {
+            setSelectedLang(currentLang);
+            i18n.changeLanguage(currentLang).catch(console.error);
+        }
+    }, [pathname, i18n]);
 
-    const langOptions: Record<string, LangOption> = {
+    const langOptions: Record<Lang, LangOption> = {
         fr: { label: 'Français', flag: 'EazyPostCart/images/fr.png' },
         en: { label: 'English', flag: 'EazyPostCart/images/en.png' },
         es: { label: 'Español', flag: 'EazyPostCart/images/es.png' },
         it: { label: 'Italiano', flag: 'EazyPostCart/images/it.png' },
     };
 
+    const handleLangChange = (lang: Lang) => {
+        if (langOptions[lang]) {
+            setSelectedLang(lang);
+            i18n.changeLanguage(lang).catch(console.error);
+            
+            // Construire la nouvelle URL avec la langue
+            const pathWithoutLang = pathname.split('/').slice(2).join('/');
+            const newPath = `/${lang}${pathWithoutLang ? `/${pathWithoutLang}` : ''}`;
+            
+            // Naviguer vers la nouvelle URL
+            router.push(newPath);
+            setIsOpen(false);
+        }
+    };
+
+    const langOptionsKeys = Object.keys(langOptions) as Lang[];
     return (
-        <div className="text-left group">
+        <div className="relative inline-block text-left group">
             <div>
                 <button
                     onMouseEnter={() => setIsOpen(true)}
@@ -47,18 +73,18 @@ const LangueFooter: React.FC = () => {
                 <div
                     onMouseEnter={() => setIsOpen(true)}
                     onMouseLeave={() => setIsOpen(false)}
-                    className="absolute bottom-full left-0 pb-2 leading-0 z-10 w-52 rounded-md shadow-sm"
+                    className="absolute leading-0 z-10 w-52 rounded-md shadow-sm pt-2"
                 >
                     <div className='w-full bg-white'>
-                        <div className="py-1 px-2 max-h-25 overflow-y-auto" role="menu" aria-orientation="vertical" aria-labelledby="options-menu">
-                            {Object.keys(langOptions).map((lang) => (
-                                <a 
-                                    key={lang} 
-                                    onClick={() => handleLangChange(lang as 'fr' | 'en' | 'es' | 'it')} 
-                                    className="rounded-b-md flex py-2 text-sm text-gray-700 hover:text-[#1199ff] hover:bg-gray-100" 
+                        <div className="py-1 px-2" role="menu" aria-orientation="vertical" aria-labelledby="options-menu">
+                            {langOptionsKeys.map((lang) => (
+                                <a
+                                    key={lang}
+                                    onClick={() => handleLangChange(lang)}
+                                    className="rounded-b-md flex py-2 text-sm text-gray-700 hover:text-[#1199ff] hover:bg-gray-100 cursor-pointer"
                                     role="menuitem"
                                 >
-                                    <div className='w-full hover:bg-gray-50 px-2 transition cursor-pointer'>
+                                    <div className='w-full hover:bg-gray-50 px-2 transition'>
                                         <span className='pr-1 flex items-center'>
                                             <img src={langOptions[lang].flag} alt={langOptions[lang].label} className='mr-1 h-3 w-3' />
                                             {lang}
@@ -74,4 +100,4 @@ const LangueFooter: React.FC = () => {
     );
 };
 
-export default LangueFooter;
+export default Langue;

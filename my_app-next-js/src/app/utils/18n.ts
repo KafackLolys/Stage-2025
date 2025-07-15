@@ -16,6 +16,9 @@ i18n
         backend: {
             loadPath: '/locales/{{lng}}/{{ns}}.json', // chemin vers vos fichiers JSON
         },
+        react: {
+            useSuspense: false, // Important pour l'App Router
+        },
     });
 
 export default i18n;
