@@ -4,8 +4,8 @@ import { useTranslation } from 'next-i18next';
 import "@/app/utils/18n";
 
 const P2_Carte = () => {
-    //Translation
     const { t } = useTranslation('common');
+
     type Cart = {
         id: number;
         label: string;
@@ -73,19 +73,19 @@ const P2_Carte = () => {
     return (
         <section className="lex flex-col items-center justify-center w-full py-12">
             <h1 className="text-[25px] md:text-[50px] capitalize text-center font-semibold leading-tight">
-                Partagez vos <span className="bg-gradient-to-r from-[#0B99FF] to-[#0062A8] bg-clip-text text-transparent">moments</span> créez des<br /><span className="bg-gradient-to-r from-[#0B99FF] to-[#0062A8] bg-clip-text text-transparent">souvenirs</span> inoubliables.
+               {t('p2_carte.header.title1')} <span className="bg-gradient-to-r from-[#0B99FF] to-[#0062A8] bg-clip-text text-transparent">{t('p2_carte.header.title2')}</span>, {t('p2_carte.header.title3')}<br /><span className="bg-gradient-to-r from-[#0B99FF] to-[#0062A8] bg-clip-text text-transparent">{t('p2_carte.header.title4')}</span> {t('p2_carte.header.title5')}
             </h1>
-            <p className="mt-6 text-center text-[#4D5159] text-[14px] md:text-[16px] px-2">Dans un monde où nos plus beaux instants restent figés dans nos téléphones, EazyPostCard vous permet de leur <br /> donner une seconde vie. <b className="font-semibold text-black">Avec EazyPostCard, transformez vos photos en véritables cartes postales et envoyez-les à <br /> travers le monde, en quelques clics.</b></p>
+            <p className="mt-6 text-center text-[#4D5159] text-[14px] md:text-[16px] px-2 md:mx-[20%]">{t('p2_carte.header.description1')} <b className="font-semibold text-black">{t('p2_carte.header.description2')}</b></p>
             {/*Catégorie de cart*/}
             <div className="mt-12 w-full text-[#9EB4C4]">
                 {/* Menu desktop */}
                 <nav className="hidden md:flex flex-row px-3 items-center justify-center">
-                    <button type="button" onClick={() => setActiveCategory('populaires')} className={`${activeCategory === 'populaires' ? 'border-b-2 border-[#1092ED] bg-gradient-to-t from-[#0B99FF26] to-[#0B99FF00] font-semibold text-[#1092ED]' : 'border-b-2 border-[#D3D3D3] hover:border-[#1092ED] hover:bg-gradient-to-t from-[#0B99FF26] to-[#0B99FF00] hover:font-semibold hover:text-[#1092ED]'} px-6 py-3 duration-300`}>Populaires</button>
-                    <button type="button" onClick={() => setActiveCategory('voyages')} className={`${activeCategory === 'voyages' ? 'border-b-2 border-[#1092ED] bg-gradient-to-t from-[#0B99FF26] to-[#0B99FF00] font-semibold text-[#1092ED]' : 'border-b-2 border-[#D3D3D3] hover:border-[#1092ED] hover:bg-gradient-to-t from-[#0B99FF26] to-[#0B99FF00] hover:font-semibold hover:text-[#1092ED]'} px-6 py-3 duration-300`}>Voyages</button>
-                    <button type="button" onClick={() => setActiveCategory('famille')} className={`${activeCategory === 'famille' ? 'border-b-2 border-[#1092ED] bg-gradient-to-t from-[#0B99FF26] to-[#0B99FF00] font-semibold text-[#1092ED]' : 'border-b-2 border-[#D3D3D3] hover:border-[#1092ED] hover:bg-gradient-to-t from-[#0B99FF26] to-[#0B99FF00] hover:font-semibold hover:text-[#1092ED]'} px-6 py-3 duration-300`}>Famille</button>
-                    <button type="button" onClick={() => setActiveCategory('fetesReligieuses')} className={`${activeCategory === 'fetesReligieuses' ? 'border-b-2 border-[#1092ED] bg-gradient-to-t from-[#0B99FF26] to-[#0B99FF00] font-semibold text-[#1092ED]' : 'border-b-2 border-[#D3D3D3] hover:border-[#1092ED] hover:bg-gradient-to-t from-[#0B99FF26] to-[#0B99FF00] hover:font-semibold hover:text-[#1092ED]'} px-6 py-3 duration-300`}>Fêtes Religieuses</button>
-                    <button type="button" onClick={() => setActiveCategory('nouvelAn')} className={`${activeCategory === 'nouvelAn' ? 'border-b-2 border-[#1092ED] bg-gradient-to-t from-[#0B99FF26] to-[#0B99FF00] font-semibold text-[#1092ED]' : 'border-b-2 border-[#D3D3D3] hover:border-[#1092ED] hover:bg-gradient-to-t from-[#0B99FF26] to-[#0B99FF00] hover:font-semibold hover:text-[#1092ED]'} px-6 py-3 duration-300`}>Nouvel An</button>
-                    <button type="button" onClick={() => setActiveCategory('soutiens')} className={`${activeCategory === 'soutiens' ? 'border-b-2 border-[#1092ED] bg-gradient-to-t from-[#0B99FF26] to-[#0B99FF00] font-semibold text-[#1092ED]' : 'border-b-2 border-[#D3D3D3] hover:border-[#1092ED] hover:bg-gradient-to-t from-[#0B99FF26] to-[#0B99FF00] hover:font-semibold hover:text-[#1092ED]'} px-6 py-3 duration-300`}>Soutiens</button>
+                    <button type="button" onClick={() => setActiveCategory('populaires')} className={`${activeCategory === 'populaires' ? 'border-b-2 border-[#1092ED] bg-gradient-to-t from-[#0B99FF26] to-[#0B99FF00] font-semibold text-[#1092ED]' : 'border-b-2 border-[#D3D3D3] hover:border-[#1092ED] hover:bg-gradient-to-t from-[#0B99FF26] to-[#0B99FF00] hover:font-semibold hover:text-[#1092ED]'} px-6 py-3 duration-300`}>{t('p2_carte.categories.populaires')}</button>
+                    <button type="button" onClick={() => setActiveCategory('voyages')} className={`${activeCategory === 'voyages' ? 'border-b-2 border-[#1092ED] bg-gradient-to-t from-[#0B99FF26] to-[#0B99FF00] font-semibold text-[#1092ED]' : 'border-b-2 border-[#D3D3D3] hover:border-[#1092ED] hover:bg-gradient-to-t from-[#0B99FF26] to-[#0B99FF00] hover:font-semibold hover:text-[#1092ED]'} px-6 py-3 duration-300`}>{t('p2_carte.categories.voyages')}</button>
+                    <button type="button" onClick={() => setActiveCategory('famille')} className={`${activeCategory === 'famille' ? 'border-b-2 border-[#1092ED] bg-gradient-to-t from-[#0B99FF26] to-[#0B99FF00] font-semibold text-[#1092ED]' : 'border-b-2 border-[#D3D3D3] hover:border-[#1092ED] hover:bg-gradient-to-t from-[#0B99FF26] to-[#0B99FF00] hover:font-semibold hover:text-[#1092ED]'} px-6 py-3 duration-300`}>{t('p2_carte.categories.famille')}</button>
+                    <button type="button" onClick={() => setActiveCategory('fetesReligieuses')} className={`${activeCategory === 'fetesReligieuses' ? 'border-b-2 border-[#1092ED] bg-gradient-to-t from-[#0B99FF26] to-[#0B99FF00] font-semibold text-[#1092ED]' : 'border-b-2 border-[#D3D3D3] hover:border-[#1092ED] hover:bg-gradient-to-t from-[#0B99FF26] to-[#0B99FF00] hover:font-semibold hover:text-[#1092ED]'} px-6 py-3 duration-300`}>{t('p2_carte.categories.fetesReligieuses')}</button>
+                    <button type="button" onClick={() => setActiveCategory('nouvelAn')} className={`${activeCategory === 'nouvelAn' ? 'border-b-2 border-[#1092ED] bg-gradient-to-t from-[#0B99FF26] to-[#0B99FF00] font-semibold text-[#1092ED]' : 'border-b-2 border-[#D3D3D3] hover:border-[#1092ED] hover:bg-gradient-to-t from-[#0B99FF26] to-[#0B99FF00] hover:font-semibold hover:text-[#1092ED]'} px-6 py-3 duration-300`}>{t('p2_carte.categories.nouvelAn')}</button>
+                    <button type="button" onClick={() => setActiveCategory('soutiens')} className={`${activeCategory === 'soutiens' ? 'border-b-2 border-[#1092ED] bg-gradient-to-t from-[#0B99FF26] to-[#0B99FF00] font-semibold text-[#1092ED]' : 'border-b-2 border-[#D3D3D3] hover:border-[#1092ED] hover:bg-gradient-to-t from-[#0B99FF26] to-[#0B99FF00] hover:font-semibold hover:text-[#1092ED]'} px-6 py-3 duration-300`}>{t('p2_carte.categories.soutiens')}</button>
                 </nav>
                 {/* Menu mobile */}
                 <div className="md:hidden flex justify-center mt-4">
@@ -95,12 +95,12 @@ const P2_Carte = () => {
                         className="border border-[#1092ED] rounded px-4 py-2 text-[#1092ED] font-semibold bg-white shadow focus:outline-none w-96 mx-2"
                     >
 
-                        <option value="populaires">Populaires</option>
-                        <option value="voyages">Voyages</option>
-                        <option value="famille">Famille</option>
-                        <option value="fetesReligieuses">Fêtes Religieuses</option>
-                        <option value="nouvelAn">Nouvel An</option>
-                        <option value="soutiens">Soutiens</option>
+                        <option value="populaires">{t('p2_carte.categories.populaires')}</option>
+                        <option value="voyages">{t('p2_carte.categories.voyages')}</option>
+                        <option value="famille">{t('p2_carte.categories.famille')}</option>
+                        <option value="fetesReligieuses">{t('p2_carte.categories.fetesReligieuses')}</option>
+                        <option value="nouvelAn">{t('p2_carte.categories.nouvelAn')}</option>
+                        <option value="soutiens">{t('p2_carte.categories.soutiens')}</option>
                     </select>
                 </div>
             </div>
@@ -113,7 +113,7 @@ const P2_Carte = () => {
                 ))}
                 <div className="flex justify-center w-full mt-8">
                     <button type="button" className="px-4 py-2 text-white bg-[#0A7CCE] rounded-lg hover:bg-[#0B99FF] duration-300 flex items-center">
-                        Afficher tous les designs
+                        {t('p2_carte.buttons.showAll')}
                         <svg width="22" height="12" viewBox="0 0 22 12" fill="none" xmlns="http://www.w3.org/2000/svg"
                             className="ml-3">
                             <path d="M21.0303 6.59283C21.3232 6.29994 21.3232 5.82506 21.0303 5.53217L16.2574 0.759199C15.9645 0.466306 15.4896 0.466306 15.1967 0.759199C14.9038 1.05209 14.9038 1.52697 15.1967 1.81986L19.4393 6.0625L15.1967 10.3051C14.9038 10.598 14.9038 11.0729 15.1967 11.3658C15.4896 11.6587 15.9645 11.6587 16.2574 11.3658L21.0303 6.59283ZM0.5 6.0625V6.8125H20.5V6.0625V5.3125H0.5V6.0625Z" fill="#ffffff" />

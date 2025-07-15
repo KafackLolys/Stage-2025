@@ -2,7 +2,7 @@
     "welcome": "Bienvenido",
     "description": "Este es un ejemplo de cambio de idioma.",
     "search_placeholder": "Buscar...",
-    "connect_button": "Conectar",
+    "connect_button": "Iniciar sesión",
     "instawall": "InstaWall",
     "my_creations": "Mis Creaciones",
     "about": "Acerca de",
@@ -14,26 +14,31 @@
         "title": {
             "rediscover": "Redescubre",
             "the_post_cart": "la postal,",
-            "p1": "tal como siempre la",
-            "p2": "has conocido!"
+            "p1": "tal como siempre",
+            "p2": "la has conocido!"
         },
         "description": {
             "because": "Porque",
-            "memory": "los recuerdos más hermosos",
+            "memory": "los recuerdos más bellos",
             "better": "merecen algo mejor que lo digital,",
             "eazypostcard": "EazyPostCard",
-            "transform": "transforma tus momentos preciosos en",
+            "transform": "transforma tus momentos preciados en",
             "post_cart": "postales",
             "a": "para",
-            "send": "enviar por todo el",
+            "send": "enviar a todos los rincones del",
             "world": "mundo"
         },
-        "button": "Comenzar a crear"
+        "button": "Comienza a crear"
     },
     "p2_carte": {
         "header": {
-            "title": "Comparte tus momentos, crea recuerdos inolvidables.",
-            "description": "En un mundo donde nuestros momentos más hermosos se quedan atrapados en nuestros teléfonos, EazyPostCard les da una segunda vida. Con EazyPostCard, transforma tus fotos en postales reales y envíalas por todo el mundo con solo unos clics."
+            "title1": "Comparte tus",
+            "title2": "momentos",
+            "title3": "crea",
+            "title4": "recuerdos",
+            "title5": "inolvidables.",
+            "description1": "En un mundo donde nuestros momentos más bellos quedan atrapados en nuestros teléfonos, EazyPostCard te permite darles una segunda vida.",
+            "description2": "Con EazyPostCard, transforma tus fotos en verdaderas postales y envíalas por todo el mundo en solo unos clics."
         },
         "categories": {
             "populaires": "Populares",
@@ -41,10 +46,109 @@
             "famille": "Familia",
             "fetesReligieuses": "Fiestas Religiosas",
             "nouvelAn": "Año Nuevo",
-            "soutiens": "Apoyo"
+            "soutiens": "Apoyos"
         },
         "buttons": {
             "showAll": "Mostrar todos los diseños"
         }
+    },
+    "p3_guide": {
+        "header": {
+            "title": "Diseña en minutos, publica tus postales en segundos.",
+            "description1": "Desbloquea todo el potencial de",
+            "description2": "InstaCard",
+            "description3": "con plantillas. Descubre miles de diseños y categorías."
+        },
+        "steps": {
+            "step1": {
+                "title": "PASO 01",
+                "subtitle": "Selecciona una plantilla",
+                "description": "Elige entre una variedad de plantillas de nuestros diseños disponibles o comienza desde cero."
+            },
+            "step2": {
+                "title": "PASO 02",
+                "subtitle": "Agrega tus fotos"
+            },
+            "step3": {
+                "title": "PASO 03",
+                "subtitle": "Incluye un mensaje personalizado"
+            },
+            "step4": {
+                "title": "PASO 04",
+                "subtitle": "Envía tu postal a cualquiera"
+            }
+        }
+    },
+    "p4_causeinstawall": {
+        "header": {
+            "title": "Causas que nos conciernen a todos!",
+            "description": "Postales comprometidas, enviadas colectivamente, para concienciar y movilizar alrededor de causas universales, transformando cada mensaje en un acto concreto e impactante."
+        },
+        "stats": {
+            "causes": "causas",
+            "participants": "participantes",
+            "countries": "países",
+            "button": "Explorar más de 1000 causas"
+        },
+        "pub_navigate": "Tus postales, un eco para las causas que importan.",
+        "instawall": {
+            "title1": "¡Más que una postal: una red social",
+            "title2": "única",
+            "title3": "!",
+            "description": "Descubre InstaWall, el espacio donde tus recuerdos adquieren una nueva dimensión.",
+            "features": {
+                "share": {
+                    "title": "Comparte Tus Momentos",
+                    "description1": "Comparte",
+                    "description2": "tus fotos de viaje e inspira a la",
+                    "description3": "comunidad."
+                },
+                "connect": {
+                    "title": "Conéctate a través del Contenido",
+                    "description1": "Dale me gusta, comenta e interactúa",
+                    "description2": "con otros entusiastas."
+                },
+                "sell": {
+                    "title": "Vende Tu Arte",
+                    "description1": "Compra o vende",
+                    "description2": "imágenes para transformarlas en postales o impresiones artísticas."
+                }
+            },
+            "explore_button": "Explora EazyWall"
+        }
+    },
+    "footer": {
+        "logo_alt": "logo instacard",
+        "description": "Cada imagen tiene una historia que contar...",
+        "useful_links": {
+            "title": "Enlaces útiles",
+            "links": [
+                "Cómo funciona",
+                "InstaWall",
+                "Programa de referidos",
+                "Política de privacidad",
+                "Términos de uso",
+                "Configuraciones de cookies"
+            ]
+        },
+        "about": {
+            "title": "Acerca de",
+            "links": [
+                "Nuestro equipo",
+                "Contáctanos",
+                "Sala de prensa",
+                "Blog/Noticias",
+                "Conviértete en socio",
+                "FAQs"
+            ]
+        },
+        "account": {
+            "title": "Mi cuenta",
+            "login": "Iniciar sesión/Registrarse"
+        },
+        "secure_payment": {
+            "title": "Pago seguro",
+            "follow_us": "Síguenos"
+        }
     }
-} 
+}

@@ -27,10 +27,10 @@ const Langue: React.FC = () => {
     }, [pathname, i18n]);
 
     const langOptions: Record<Lang, LangOption> = {
-        fr: { label: 'Français', flag: 'EazyPostCart/images/fr.png' },
-        en: { label: 'English', flag: 'EazyPostCart/images/en.png' },
-        es: { label: 'Español', flag: 'EazyPostCart/images/es.png' },
-        it: { label: 'Italiano', flag: 'EazyPostCart/images/it.png' },
+        fr: { label: 'Français', flag: '/EazyPostCart/images/fr.png' },
+        en: { label: 'English', flag: '/EazyPostCart/images/en.png' },
+        es: { label: 'Español', flag: '/EazyPostCart/images/es.png' },
+        it: { label: 'Italiano', flag: '/EazyPostCart/images/it.png' },
     };
 
     const handleLangChange = (lang: Lang) => {

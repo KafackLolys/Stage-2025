@@ -8,7 +8,7 @@ const P1_Introduction = () => {
     const { t } = useTranslation('common');
     return (
         <section className="flex flex-col md:flex-row items-center justify-center w-full py-12 px-4 md:px-[8%] gap-y-8 md:gap-x-12">
-            <img src="EazyPostCart/images/VideoImage.png" alt="Introduction" className="w-full max-w-[400px] md:w-[1380px] h-auto" />
+            <img src="/EazyPostCart/images/VideoImage.png" alt="Introduction" className="w-full max-w-[400px] md:w-[1380px] h-auto" />
             <div>
                 <h1 className="text-xl md:text-4xl capitalize font-semibold">
                     {t('p1_introduction.title.rediscover')} <span className="bg-gradient-to-r from-[#0B99FF] to-[#0062A8] bg-clip-text text-transparent">{t('p1_introduction.title.the_post_cart')}</span><br /> {t('p1_introduction.title.p1')}<br /> {t('p1_introduction.title.p2')}

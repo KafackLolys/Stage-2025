@@ -1,8 +1,11 @@
 "use client";
 import React, { useRef, useState, useEffect } from 'react';
 import styles from '../../styles/Causes.module.css';
+import { useTranslation } from 'next-i18next';
+import "@/app/utils/18n";
 
 const ExempleCauses = () => {
+    const { t } = useTranslation('common');
     type Cause = {
         id: number;
         title: string;
@@ -13,55 +16,66 @@ const ExempleCauses = () => {
 
     const causes: Cause[] =
         [
-            { id: 1, title: "Tout le monde a son mot à dire", description: "Une description où chacun peut exprimer son opinion. Ici un test de sauvegarde...", image: "images/Bannier_insta_card_1.png", participants: 0 },
-            { id: 2, title: "Autre cause à soutenir", description: "Une autre description pour une cause différente.", image: "images/im1.jpg", participants: 5 },
+            {
+                id: 1, title: "Tout le monde a son mot à dire",
+                description: "Une description où chacun peut exprimer son opinion. Ici un test de sauvegarde...",
+                image: "/EazyPostCart/images/STEP 01.jpg",
+                participants: 0
+            },
+            {
+                id: 2,
+                title: "Autre cause à soutenir",
+                description: "Une autre description pour une cause différente.",
+                image: "/EazyPostCart/images/STEP 02.jpg",
+                participants: 5
+            },
             {
                 id: 3,
                 title: "Accès à l’eau potable",
                 description: "Aider les communautés à obtenir une source d’eau propre et durable.",
-                image: "images/im2.jpg",
+                image: "/EazyPostCart/images/STEP 03.jpg",
                 participants: 12
             },
             {
                 id: 4,
                 title: "Lutte contre le harcèlement scolaire",
                 description: "Sensibiliser et agir pour que chaque élève se sente en sécurité.",
-                image: "images/im3.jpg",
+                image: "/EazyPostCart/images/STEP 04.jpg",
                 participants: 8
             },
             {
                 id: 5,
                 title: "Soutien aux sans-abris",
                 description: "Offrir un hébergement et des repas aux personnes dans le besoin.",
-                image: "images/im4.jpg",
+                image: "/EazyPostCart/images/Frame 1171275393.png",
                 participants: 20
             },
             {
                 id: 6,
                 title: "Protection des animaux",
                 description: "Lutter contre la maltraitance animale et favoriser l’adoption.",
-                image: "images/im5.jpg",
+                image: "/EazyPostCart/images/Frame 1171275393 - Copie.png",
                 participants: 14
             },
             {
                 id: 7,
                 title: "Égalité des genres",
                 description: "Favoriser l'égalité des opportunités, peu importe le genre.",
-                image: "images/im6.jpg",
+                image: "/EazyPostCart/images/Frame 1171275397.png",
                 participants: 9
             },
             {
                 id: 8,
                 title: "Reboisement des forêts",
                 description: "Planter des arbres pour restaurer les écosystèmes.",
-                image: "images/im7.jpg",
+                image: "/EazyPostCart/images/Frame 1171275398.png",
                 participants: 17
             },
             {
                 id: 9,
                 title: "Éducation numérique",
                 description: "Apporter des outils technologiques aux écoles défavorisées.",
-                image: "images/education_numerique.png",
+                image: "/EazyPostCart/images/Frame 1171275399.png",
                 participants: 11
             }
         ];
@@ -140,9 +154,9 @@ const ExempleCauses = () => {
                                 <div className="flex flex-col xs:flex-row justify-between items-start xs:items-center gap-2 xs:gap-3 sm:gap-0 mt-2 sm:mt-3">
                                     <div className="flex items-center w-full xs:w-auto">
                                         <div className="flex -space-x-1.5 xs:-space-x-2">
-                                            <img alt="Avatar 2" className="w-6 h-6 xs:w-8 xs:h-8 sm:w-10 sm:h-10 object-cover rounded-full border-2 border-white hover:scale-105 duration-300" src="images/group1.jpeg" />
-                                            <img alt="Avatar 3" className="w-6 h-6 xs:w-8 xs:h-8 sm:w-10 sm:h-10 object-cover rounded-full border-2 border-white hover:scale-105 duration-300" src="images/group2.jpeg" />
-                                            <img alt="Avatar 3" className="w-6 h-6 xs:w-8 xs:h-8 sm:w-10 sm:h-10 object-cover rounded-full border-2 border-white hover:scale-105 duration-300" src="images/group2.jpeg" />
+                                            <img alt="Avatar 1" className="w-6 h-6 xs:w-8 xs:h-8 sm:w-10 sm:h-10 object-cover rounded-full border-2 border-white hover:scale-105 duration-300" src="/EazyPostCart/images/Avatar 1.jpg" />
+                                            <img alt="Avatar 2" className="w-6 h-6 xs:w-8 xs:h-8 sm:w-10 sm:h-10 object-cover rounded-full border-2 border-white hover:scale-105 duration-300" src="/EazyPostCart/images/Avatar 2.jpg" />
+                                            <img alt="Avatar 3" className="w-6 h-6 xs:w-8 xs:h-8 sm:w-10 sm:h-10 object-cover rounded-full border-2 border-white hover:scale-105 duration-300" src="/EazyPostCart/images/Avatar 3.jpg" />
                                         </div>
                                         <span className="text-[11px] hover:scale-102 duration-300  text-gray-700 ml-1.5 xs:ml-2">+{cause.participants} cartes envoyées</span>
                                     </div>
@@ -161,7 +175,7 @@ const ExempleCauses = () => {
                 ))}
             </div>
             <div className='flex items-center justify-between mt-4'>
-                <p className="text-[#555555] text-[14px] md:text-[16px]">Vos cartes postales, un écho <br /> pour les causes qui comptent.</p>
+                <p className="text-[#555555] text-[14px] md:text-[16px] w-[230px]">{t('p4_causeinstawall.pub_navigate')}</p>
                 {/* Boutons de navigation */}
                 <div className="flex justify-end items-center gap-2">
                     <button

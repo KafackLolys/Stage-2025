@@ -32,12 +32,17 @@
     
     "p2_carte": {
         "header": {
-            "title": "Share your moments, create unforgettable memories.",
-            "description": "In a world where our most beautiful moments stay trapped in our phones, EazyPostCard gives them a second life. With EazyPostCard, transform your photos into real postcards and send them around the world in just a few clicks."
+            "title1": "Share your",
+            "title2": "moments",
+            "title3": "create",
+            "title4": "unforgettable",
+            "title5": "memories.",
+            "description1": "In a world where our most beautiful moments remain captured in our phones, EazyPostCard allows you to give them a second life.",
+            "description2": "With EazyPostCard, transform your photos into real postcards and send them around the world in just a few clicks."
         },
         "categories": {
             "populaires": "Popular",
-            "voyages": "Travels",
+            "voyages": "Travel",
             "famille": "Family",
             "fetesReligieuses": "Religious Holidays",
             "nouvelAn": "New Year",
@@ -46,5 +51,107 @@
         "buttons": {
             "showAll": "Show all designs"
         }
-    }
+    },
+
+    "p3_guide": {
+        "header": {
+            "title": "Design in minutes, publish your postcards in seconds.",
+            "description1": "Unlock the full potential of",
+            "description2": "InstaCard",
+            "description3": "with templates. Discover thousands of designs and categories."
+        },
+        "steps": {
+            "step1": {
+                "title": "STEP 01",
+                "subtitle": "Select a template",
+                "description": "Choose from a variety of templates from our available designs or start from scratch."
+            },
+            "step2": {
+                "title": "STEP 02",
+                "subtitle": "Add your photos"
+            },
+            "step3": {
+                "title": "STEP 03",
+                "subtitle": "Include a personalized message"
+            },
+            "step4": {
+                "title": "STEP 04",
+                "subtitle": "Send your postcard to anyone"
+            }
+        }
+    },
+
+    "p4_causeinstawall": {
+        "header": {
+            "title": "Causes that concern us all!",
+            "description": "Engaging postcards sent collectively to raise awareness and mobilize around universal causes, turning each message into a concrete and impactful act."
+        },
+        "stats": {
+            "causes": "causes",
+            "participants": "participants",
+            "countries": "countries",
+            "button": "Browse more than 1000 causes"
+        },
+        "pub_navigate" : "Your postcards, an echo for the causes that matter.",
+        "instawall": {
+            "title1": "More than a postcard: a",
+            "title2": "unique",
+            "title3": "social network!",
+            "description": "Discover InstaWall, the space where your memories take on a new dimension.",
+            "features": {
+                "share": {
+                    "title": "Share Your Moments",
+                    "description1": "Share",
+                    "description2": "your travel photos and inspire the",
+                    "description3": "community."
+                },
+                "connect": {
+                    "title": "Connect Through Content",
+                    "description1": "Like, comment, and engage",
+                    "description2": "with other enthusiasts."
+                },
+                "sell": {
+                    "title": "Sell Your Art",
+                    "description1": "Buy or sell",
+                    "description2": "images to transform them into cards or art prints."
+                }
+            },
+            "explore_button": "Explore EazyWall"
+        }
+    },
+
+    "footer": {
+            "logo_alt": "instacard logo",
+            "description": "Every image has a story to tell...",
+            "useful_links": {
+                "title": "Useful Links",
+                "links": [
+                    "How it works",
+                    "InstaWall",
+                    "Referral Program",
+                    "Privacy Policy",
+                    "Terms of Use",
+                    "Cookie Settings"
+                ]
+            },
+            "about": {
+                "title": "About",
+                "links": [
+                    "Our Team",
+                    "Contact Us",
+                    "Press Room",
+                    "Blog/News",
+                    "Become a Partner",
+                    "FAQs"
+                ]
+            },
+            "account": {
+                "title": "My Account",
+                "login": "Login/Sign Up"
+            },
+            "secure_payment": {
+                "title": "Secure Payment",
+                "follow_us": "Follow Us"
+            }
+        }
 }

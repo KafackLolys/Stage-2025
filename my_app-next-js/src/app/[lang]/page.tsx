@@ -20,7 +20,6 @@ export default function Home() {
           Aller à Eazycause (FR)
         </a>
       </div>
-      
     </div>
   );
 }

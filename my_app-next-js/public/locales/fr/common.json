@@ -30,13 +30,15 @@
         },
         "button": "Commencer à créer"
     },
-    
     "p2_carte": {
         "header": {
             "title1": "Partagez vos",
             "title2": "moments",
-            "title3": "précieux",
-            "description": "Dans un monde où nos plus beaux instants restent figés dans nos téléphones, EazyPostCard vous permet de leur donner une seconde vie. Avec EazyPostCard, transformez vos photos en véritables cartes postales et envoyez-les à travers le monde, en quelques clics."
+            "title3": "créez des",
+            "title4": "souvenirs",
+            "title5": "inoubliables.",
+            "description1": "Dans un monde où nos plus beaux instants restent figés dans nos téléphones, EazyPostCard vous permet de leur donner une seconde vie.",
+            "description2": "Avec EazyPostCard, transformez vos photos en véritables cartes postales et envoyez-les à travers le monde, en quelques clics."
         },
         "categories": {
             "populaires": "Populaires",
@@ -48,6 +50,105 @@
         },
         "buttons": {
             "showAll": "Afficher tous les designs"
+        }
+    },
+    "p3_guide": {
+        "header": {
+            "title": "Concevez en quelques minutes, publiez vos cartes postales en quelques secondes.",
+            "description1": "Libérez tout le potentiel de",
+            "description2": "InstaCard",
+            "description3": "avec des modèles. Découvrez des milliers de design et de catégories."
+        },
+        "steps": {
+            "step1": {
+                "title": "ÉTAPE 01",
+                "subtitle": "Sélectionnez un modèle",
+                "description": "Choisissez parmi une variété de modèles à partir de nos conceptions disponibles ou commencez à partir de zéro."
+            },
+            "step2": {
+                "title": "ÉTAPE 02",
+                "subtitle": "Ajoutez vos photos"
+            },
+            "step3": {
+                "title": "ÉTAPE 03",
+                "subtitle": "Inclure un message personnalisé"
+            },
+            "step4": {
+                "title": "ÉTAPE 04",
+                "subtitle": "Envoyez votre carte postale à n'importe qui"
+            }
+        }
+    },
+    "p4_causeinstawall": {
+        "header": {
+            "title": "Des causes qui nous interpellent tous!",
+            "description": "Des cartes postales engagées, envoyées collectivement, pour sensibiliser et mobiliser autour de causes universelles, transformant chaque message en un acte concret et impactant."
+        },
+        "stats": {
+            "causes": "causes",
+            "participants": "participants",
+            "countries": "pays",
+            "button": "Parcourir plus de 1000 causes"
+        },
+        "pub_navigate": "Vos cartes postales, un écho pour les causes qui comptent.",
+        "instawall": {
+            "title1": "Bien plus qu’une carte postale: un réseau social",
+            "title2": "unique",
+            "title3": "!",
+            "description": "Découvrez InstaWall, l’espace où vos souvenirs prennent une nouvelle dimension.",
+            "features": {
+                "share": {
+                    "title": "Partagez Vos Moments",
+                    "description1": "Partagez",
+                    "description2": "vos photos de voyage et inspirez la",
+                    "description3": "communauté."
+                },
+                "connect": {
+                    "title": "Connectez Par le Contenu",
+                    "description1": "Likez, commentez et échangez",
+                    "description2": "avec d’autres passionnés."
+                },
+                "sell": {
+                    "title": "Vendez Votre Art",
+                    "description1": "Achetez ou vendez",
+                    "description2": "des images pour les transformer en cartes ou tirages d’art."
+                }
+            },
+            "explore_button": "Explorez EazyWall"
+        }
+    },
+    "footer": {
+        "logo_alt": "logo instacard",
+        "description": "Chaque image a une histoire à raconter...",
+        "useful_links": {
+            "title": "Liens utiles",
+            "links": [
+                "Comment ça marche",
+                "InstaWall",
+                "Programme de parrainage",
+                "Politique de confidentialité",
+                "Conditions d'utilisation",
+                "Paramètres de cookies"
+            ]
+        },
+        "about": {
+            "title": "À propos",
+            "links": [
+                "Notre équipe",
+                "Contactez-nous",
+                "Espace presse",
+                "Blog/Actualités",
+                "Devenir partenaire",
+                "FAQs"
+            ]
+        },
+        "account": {
+            "title": "Mon compte",
+            "login": "Connexion/Inscription"
+        },
+        "secure_payment": {
+            "title": "Paiement sécurisé",
+            "follow_us": "Suivez-nous"
         }
     }
 }

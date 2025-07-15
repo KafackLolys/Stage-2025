@@ -1,11 +1,11 @@
 {
     "welcome": "Benvenuto",
-    "description": "Questo è un esempio di cambio lingua.",
+    "description": "Questo è un esempio di cambio di lingua.",
     "search_placeholder": "Cerca...",
-    "connect_button": "Connetti",
+    "connect_button": "Accedi",
     "instawall": "InstaWall",
     "my_creations": "Le Mie Creazioni",
-    "about": "Chi Siamo",
+    "about": "Informazioni",
     "link1": "Link 1",
     "link2": "Link 2",
     "dropdown_toggle": "Apri menu",
@@ -14,7 +14,7 @@
         "title": {
             "rediscover": "Riscopri",
             "the_post_cart": "la cartolina,",
-            "p1": "proprio come l'hai sempre",
+            "p1": "come l'hai sempre",
             "p2": "conosciuta!"
         },
         "description": {
@@ -24,16 +24,21 @@
             "eazypostcard": "EazyPostCard",
             "transform": "trasforma i tuoi momenti preziosi in",
             "post_cart": "cartoline",
-            "a": "da",
-            "send": "inviare in tutto il",
+            "a": "per",
+            "send": "inviare in ogni angolo del",
             "world": "mondo"
         },
         "button": "Inizia a creare"
     },
     "p2_carte": {
         "header": {
-            "title": "Condividi i tuoi momenti, crea ricordi indimenticabili.",
-            "description": "In un mondo dove i nostri momenti più belli rimangono intrappolati nei nostri telefoni, EazyPostCard dà loro una seconda vita. Con EazyPostCard, trasforma le tue foto in vere cartoline e inviale in tutto il mondo con pochi clic."
+            "title1": "Condividi i tuoi",
+            "title2": "momenti",
+            "title3": "crea",
+            "title4": "ricordi",
+            "title5": "indimenticabili.",
+            "description1": "In un mondo in cui i nostri momenti più belli sono intrappolati nei nostri telefoni, EazyPostCard ti consente di dare loro una seconda vita.",
+            "description2": "Con EazyPostCard, trasforma le tue foto in vere cartoline e inviale in tutto il mondo con pochi clic."
         },
         "categories": {
             "populaires": "Popolari",
@@ -41,10 +46,109 @@
             "famille": "Famiglia",
             "fetesReligieuses": "Feste Religiose",
             "nouvelAn": "Capodanno",
-            "soutiens": "Supporto"
+            "soutiens": "Supporti"
         },
         "buttons": {
             "showAll": "Mostra tutti i design"
         }
+    },
+    "p3_guide": {
+        "header": {
+            "title": "Progetta in pochi minuti, pubblica le tue cartoline in pochi secondi.",
+            "description1": "Sblocca tutto il potenziale di",
+            "description2": "InstaCard",
+            "description3": "con modelli. Scopri migliaia di design e categorie."
+        },
+        "steps": {
+            "step1": {
+                "title": "PASSO 01",
+                "subtitle": "Seleziona un modello",
+                "description": "Scegli tra una varietà di modelli dai nostri design disponibili o inizia da zero."
+            },
+            "step2": {
+                "title": "PASSO 02",
+                "subtitle": "Aggiungi le tue foto"
+            },
+            "step3": {
+                "title": "PASSO 03",
+                "subtitle": "Includi un messaggio personalizzato"
+            },
+            "step4": {
+                "title": "PASSO 04",
+                "subtitle": "Invia la tua cartolina a chiunque"
+            }
+        }
+    },
+    "p4_causeinstawall": {
+        "header": {
+            "title": "Cause che ci riguardano tutti!",
+            "description": "Cartoline impegnate, inviate collettivamente, per sensibilizzare e mobilitare attorno a cause universali, trasformando ogni messaggio in un atto concreto e impattante."
+        },
+        "stats": {
+            "causes": "cause",
+            "participants": "partecipanti",
+            "countries": "paesi",
+            "button": "Esplora oltre 1000 cause"
+        },
+        "pub_navigate": "Le tue cartoline, un eco per le cause che contano.",
+        "instawall": {
+            "title1": "Più di una cartolina: un social network",
+            "title2": "unico",
+            "title3": "!",
+            "description": "Scopri InstaWall, lo spazio dove i tuoi ricordi prendono una nuova dimensione.",
+            "features": {
+                "share": {
+                    "title": "Condividi i Tuoi Momenti",
+                    "description1": "Condividi",
+                    "description2": "le tue foto di viaggio e ispira la",
+                    "description3": "comunità."
+                },
+                "connect": {
+                    "title": "Connettiti Attraverso i Contenuti",
+                    "description1": "Metti mi piace, commenta e interagisci",
+                    "description2": "con altri appassionati."
+                },
+                "sell": {
+                    "title": "Vendi il Tuo Arte",
+                    "description1": "Acquista o vendi",
+                    "description2": "immagini per trasformarle in cartoline o stampe artistiche."
+                }
+            },
+            "explore_button": "Esplora EazyWall"
+        }
+    },
+    "footer": {
+        "logo_alt": "logo instacard",
+        "description": "Ogni immagine ha una storia da raccontare...",
+        "useful_links": {
+            "title": "Link utili",
+            "links": [
+                "Come funziona",
+                "InstaWall",
+                "Programma di referral",
+                "Politica sulla privacy",
+                "Termini di utilizzo",
+                "Impostazioni dei cookie"
+            ]
+        },
+        "about": {
+            "title": "Informazioni",
+            "links": [
+                "Il nostro team",
+                "Contattaci",
+                "Sala stampa",
+                "Blog/Notizie",
+                "Diventa partner",
+                "FAQs"
+            ]
+        },
+        "account": {
+            "title": "Il mio account",
+            "login": "Accesso/Registrazione"
+        },
+        "secure_payment": {
+            "title": "Pagamento sicuro",
+            "follow_us": "Seguici"
+        }
     }
-} 
+}

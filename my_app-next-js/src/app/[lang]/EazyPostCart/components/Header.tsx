@@ -31,15 +31,15 @@ const Header = () => {
             <nav className='w-full xl:flex hidden justify-between items-center py-4 px-[5%]'>
                 {/* Logo */}
                 <a href=''>
-                    <img src="EazyPostCart/images/logo1.png" alt="LogoEazyPostCart" className='w-20 h-auto' />
+                    <img src="/EazyPostCart/images/logo1.png" alt="LogoEazyPostCart" className='w-20 h-auto' />
                 </a>
                 <div className='flex items-center gap-x-6'>
                     {/* Search Bar */}
                     <div className='flex items-center border border-[#ECEAE1] rounded-full p-0'>
                         <button type='button' className='rounded-tl-full hover:shadow duration-300 hover:bg-white rounded-bl-full pl-8 pr-3 h-10 cursor-pointer'>
-                            <img src="EazyPostCart/images/search.png" alt="Search" className='w-6 h-6' />
+                            <img src="/EazyPostCart/images/search.png" alt="Search" className='w-6 h-6' />
                         </button>
-                        <input type="search" className="border-l-2 border-[#ECEAE1] pl-2 py-1 rounded-tr-full rounded-br-full" name="search" id="search" />
+                        <input type="search" className="border-l-2 border-[#ECEAE1] pl-2 py-1 rounded-tr-full rounded-br-full" name="search" id="search" placeholder={t('search_placeholder')} />
                     </div>
                     {/* Menu */}
                     <div className='flex items-center gap-x-4 border-l-2 border-r-2 border-l-[#ECEAE1] border-r-[#ECEAE1] px-4'>
@@ -76,11 +76,11 @@ const Header = () => {
 
             <nav className='xl:hidden w-full flex items-center justify-between h-[74px] pl-5 pr-[20%]'>
                 <a href=''>
-                    <img src="EazyPostCart/images/logo1.png" alt="LogoEazyPostCart" className='w-20 h-auto' />
+                    <img src="/EazyPostCart/images/logo1.png" alt="LogoEazyPostCart" className='w-20 h-auto' />
                 </a>
                 {/* Bouton Rechercher */}
                 <button type='button' className='rounded hover:shadow hover:shadow-gray-400 duration-300 hover:bg-white p-3 h-10 cursor-pointer' onClick={() => setShowInput(v => !v)}>
-                    <img src="EazyPostCart/images/search.png" alt="Search" className='w-6 h-6' />
+                    <img src="/EazyPostCart/images/search.png" alt="Search" className='w-6 h-6' />
                 </button>
                 {showInput && (
                     <input
