@@ -162,10 +162,10 @@ const ExempleCauses = () => {
                                     </div>
                                     <div className='flex w-full items-center justify-between gap-x-3 mt-3'>
                                         <a className="w-1/2 h-8 md:h-[40px] xs:w-auto flex items-center justify-center bg-white text-[#292723] text-[12px] xs:text-xs sm:text-sm px-3 xs:px-4 py-1.5 xs:py-2 rounded-[8px] hover:scale-102 hover:shadow-lg border-2 border-[#ECEAE1]" target="_blank" href="">
-                                            Détails de cause
+                                            {t('p4_causeinstawall.causes.button_details')}
                                         </a>
                                         <a className="w-1/2 h-8 md:h-[40px] xs:w-auto flex items-center justify-center bg-[#015B9C] text-white text-[12px] xs:text-xs sm:text-sm px-3 xs:px-4 py-1.5 xs:py-2 rounded-[8px] hover:scale-102 hover:shadow-lg border-2 border-[#ECEAE1]" target="_blank" href="">
-                                            Participer
+                                            {t('p4_causeinstawall.causes.participate')}
                                         </a>
                                     </div>
                                 </div>
@@ -175,7 +175,7 @@ const ExempleCauses = () => {
                 ))}
             </div>
             <div className='flex items-center justify-between mt-4'>
-                <p className="text-[#555555] text-[14px] md:text-[16px] w-[230px]">{t('p4_causeinstawall.pub_navigate')}</p>
+                <p className="text-[#555555] text-[14px] md:text-[16px] w-[230px]">{t('p4_causeinstawall.causes.pub_navigate')}</p>
                 {/* Boutons de navigation */}
                 <div className="flex justify-end items-center gap-2">
                     <button

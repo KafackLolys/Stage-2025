@@ -11,33 +11,36 @@ const P3_Guide = () => {
             </h1>
             <p className="mt-6 text-center text-[#4D5159] text-[14px] md:text-[16px]">{t('p3_guide.header.description1')} <b className="font-semibold text-black"> {t('p3_guide.header.description2')}</b> {t('p3_guide.header.description3')}</p>
             <div className="grid mt-9 sm:mt-12 w-full sm:grid-cols-2 md:flex flex-wrap sm:flex-nowrap text-white md:h-[340px] h-auto">
-                <span className="xl:w-[33.4%] relative md:h-[300px] h-auto">
+                <span className="xl:flex-1 relative md:h-[300px] h-auto">
                     <img src="/EazyPostCart/images/STEP 01.jpg" alt="STEP 01" className="w-full h-full object-cover" />
-                    <div className="absolute top-0 left-0 w-full h-full flex flex-col justify-end items-start p-4 bg-gradient-to-t from-black/60 to-transparent text-white break-words">
+                    <div className="absolute top-0 left-0 w-full h-full flex flex-col justify-end items-start p-4 bg-gradient-to-t from-black/60 hover:from-black/30 to-transparent text-white break-words">
                         <p className="text-[14px]">{t('p3_guide.steps.step1.title')}</p>
                         <p className="text-[24px] font-semibold">{t('p3_guide.steps.step1.subtitle')}</p>
                         <p className="text-[14px]">{t('p3_guide.steps.step1.description')}</p>
                     </div>
                 </span>
-                <span className="xl:w-[22.2%] relative md:h-[300px] h-auto">
+                <span className="group xl:w-[22.2%] xl:hover:w-[33.4%] duration-300 relative md:h-[300px] h-auto">
                     <img src="/EazyPostCart/images/STEP 02.jpg" alt="STEP 02" className="w-full h-full object-cover" />
-                    <div className="absolute top-0 left-0 w-full h-full flex flex-col justify-end items-start p-4 bg-gradient-to-t from-black/60 to-transparent text-white break-words">
+                    <div className="absolute top-0 left-0 w-full h-full flex flex-col justify-end items-start p-4 bg-gradient-to-t from-black/60 hover:from-black/30 to-transparent text-white break-words">
                         <p className="text-[14px]">{t('p3_guide.steps.step2.title')}</p>
                         <p className="text-[24px] font-semibold">{t('p3_guide.steps.step2.subtitle')}</p>
+                        <p className="text-[14px] md:hidden group-hover:block">{t('p3_guide.steps.step2.description')}</p>
                     </div>
                 </span>
-                <span className="xl:w-[22.2%] relative md:h-[300px] h-auto">
+                <span className="group xl:w-[22.2%] xl:hover:w-[33.4%] duration-300 relative md:h-[300px] h-auto">
                     <img src="/EazyPostCart/images/STEP 03.jpg" alt="STEP 03" className="w-full h-full object-cover" />
-                    <div className="absolute top-0 left-0 w-full h-full flex flex-col justify-end items-start p-4 bg-gradient-to-t from-black/60 to-transparent text-white break-words">
+                    <div className="absolute top-0 left-0 w-full h-full flex flex-col justify-end items-start p-4 bg-gradient-to-t from-black/60 hover:from-black/30 to-transparent text-white break-words">
                         <p className="text-[14px]">{t('p3_guide.steps.step3.title')}</p>
                         <p className="text-[24px] font-semibold">{t('p3_guide.steps.step3.subtitle')}</p>
+                        <p className="text-[14px] md:hidden group-hover:block">{t('p3_guide.steps.step3.description')}</p>
                     </div>
                 </span>
-                <span className="xl:w-[22.2%] relative md:h-[300px] h-auto">
+                <span className="group xl:w-[22.2%] xl:hover:w-[33.4%] duration-300 relative md:h-[300px] h-auto">
                     <img src="/EazyPostCart/images/STEP 04.jpg" alt="STEP 04" className="w-full h-full object-cover" />
-                    <div className="absolute top-0 left-0 w-full h-full flex flex-col justify-end items-start p-4 bg-gradient-to-t from-black/60 to-transparent text-white break-words">
+                    <div className="absolute top-0 left-0 w-full h-full flex flex-col justify-end items-start p-4 bg-gradient-to-t from-black/60 hover:from-black/30 to-transparent text-white break-words">
                         <p className="text-[14px]">{t('p3_guide.steps.step4.title')}</p>
                         <p className="text-[24px] font-semibold">{t('p3_guide.steps.step4.subtitle')}</p>
+                        <p className="text-[14px] md:hidden group-hover:block">{t('p3_guide.steps.step4.description')}</p>
                     </div>
                 </span>
             </div>

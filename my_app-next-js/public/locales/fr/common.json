@@ -67,15 +67,18 @@
             },
             "step2": {
                 "title": "ÉTAPE 02",
-                "subtitle": "Ajoutez vos photos"
+                "subtitle": "Ajoutez vos photos",
+                "description": "Téléchargez vos photos préférées pour les intégrer dans votre carte postale. Assurez-vous qu'elles soient de bonne qualité pour un meilleur rendu."
             },
             "step3": {
                 "title": "ÉTAPE 03",
-                "subtitle": "Inclure un message personnalisé"
+                "subtitle": "Inclure un message personnalisé",
+                "description": "Rédigez un message sincère ou amusant pour accompagner votre carte postale. Personnalisez-le selon la personne à qui vous l'envoyez."
             },
             "step4": {
                 "title": "ÉTAPE 04",
-                "subtitle": "Envoyez votre carte postale à n'importe qui"
+                "subtitle": "Envoyez votre carte postale à n'importe qui",
+                "description": "Choisissez l'adresse du destinataire et envoyez votre carte postale en un clic. Partagez vos souvenirs avec vos proches, où qu'ils soient."
             }
         }
     },
@@ -90,7 +93,11 @@
             "countries": "pays",
             "button": "Parcourir plus de 1000 causes"
         },
-        "pub_navigate": "Vos cartes postales, un écho pour les causes qui comptent.",
+        "causes":{
+            "button_details":"Détails de cause",
+            "participate" : "Participer",
+            "pub_navigate": "Vos cartes postales, un écho pour les causes qui comptent."
+        },
         "instawall": {
             "title1": "Bien plus qu’une carte postale: un réseau social",
             "title2": "unique",

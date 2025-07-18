@@ -68,15 +68,18 @@
             },
             "step2": {
                 "title": "STEP 02",
-                "subtitle": "Add your photos"
+                "subtitle": "Add your photos",
+                "description": "Upload your favorite photos to include in your postcard. Make sure they are of good quality for the best results."
             },
             "step3": {
                 "title": "STEP 03",
-                "subtitle": "Include a personalized message"
+                "subtitle": "Include a personalized message",
+                "description": "Write a heartfelt or fun message to accompany your postcard. Personalize it for the person you are sending it to."
             },
             "step4": {
                 "title": "STEP 04",
-                "subtitle": "Send your postcard to anyone"
+                "subtitle": "Send your postcard to anyone",
+                "description": "Choose the recipient's address and send your postcard with one click. Share your memories with loved ones, wherever they are."
             }
         }
     },
@@ -92,7 +95,11 @@
             "countries": "countries",
             "button": "Browse more than 1000 causes"
         },
-        "pub_navigate" : "Your postcards, an echo for the causes that matter.",
+        "causes": {
+            "button_details": "Cause Details",
+            "participate": "Participate",
+            "pub_navigate": "Your postcards, a voice for the causes that matter."
+        },
         "instawall": {
             "title1": "More than a postcard: a",
             "title2": "unique",

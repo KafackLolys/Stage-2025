@@ -61,21 +61,24 @@
         },
         "steps": {
             "step1": {
-                "title": "PASO 01",
-                "subtitle": "Selecciona una plantilla",
-                "description": "Elige entre una variedad de plantillas de nuestros diseños disponibles o comienza desde cero."
+                "title": "ETAPA 01",
+                "subtitle": "Seleccione una plantilla",
+                "description": "Elija entre una variedad de plantillas de nuestros diseños disponibles o comience desde cero."
             },
             "step2": {
-                "title": "PASO 02",
-                "subtitle": "Agrega tus fotos"
+                "title": "ETAPA 02",
+                "subtitle": "Agregue sus fotos",
+                "description": "Suba sus fotos favoritas para incluirlas en su tarjeta postal. Asegúrese de que sean de buena calidad para obtener los mejores resultados."
             },
             "step3": {
-                "title": "PASO 03",
-                "subtitle": "Incluye un mensaje personalizado"
+                "title": "ETAPA 03",
+                "subtitle": "Incluya un mensaje personalizado",
+                "description": "Escriba un mensaje sincero o divertido para acompañar su tarjeta postal. Personalícelo para la persona a la que se lo envía."
             },
             "step4": {
-                "title": "PASO 04",
-                "subtitle": "Envía tu postal a cualquiera"
+                "title": "ETAPA 04",
+                "subtitle": "Envía tu tarjeta postal a cualquier persona",
+                "description": "Elija la dirección del destinatario y envíe su tarjeta postal con un clic. Comparta sus recuerdos con sus seres queridos, dondequiera que estén."
             }
         }
     },
@@ -90,7 +93,11 @@
             "countries": "países",
             "button": "Explorar más de 1000 causas"
         },
-        "pub_navigate": "Tus postales, un eco para las causas que importan.",
+        "causes": {
+            "button_details": "Detalles de la causa",
+            "participate": "Participar",
+            "pub_navigate": "Tus tarjetas postales, un eco para las causas que importan."
+        },
         "instawall": {
             "title1": "¡Más que una postal: una red social",
             "title2": "única",

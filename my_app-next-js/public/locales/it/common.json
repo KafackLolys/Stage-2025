@@ -61,21 +61,24 @@
         },
         "steps": {
             "step1": {
-                "title": "PASSO 01",
+                "title": "FASE 01",
                 "subtitle": "Seleziona un modello",
-                "description": "Scegli tra una varietà di modelli dai nostri design disponibili o inizia da zero."
+                "description": "Scegli tra una varietà di modelli dalle nostre design disponibili o inizia da zero."
             },
             "step2": {
-                "title": "PASSO 02",
-                "subtitle": "Aggiungi le tue foto"
+                "title": "FASE 02",
+                "subtitle": "Aggiungi le tue foto",
+                "description": "Carica le tue foto preferite da includere nella tua cartolina. Assicurati che siano di buona qualità per i migliori risultati."
             },
             "step3": {
-                "title": "PASSO 03",
-                "subtitle": "Includi un messaggio personalizzato"
+                "title": "FASE 03",
+                "subtitle": "Includi un messaggio personalizzato",
+                "description": "Scrivi un messaggio sincero o divertente da accompagnare alla tua cartolina. Personalizzalo per la persona a cui lo stai inviando."
             },
             "step4": {
-                "title": "PASSO 04",
-                "subtitle": "Invia la tua cartolina a chiunque"
+                "title": "FASE 04",
+                "subtitle": "Invia la tua cartolina a chiunque",
+                "description": "Scegli l'indirizzo del destinatario e invia la tua cartolina con un clic. Condividi i tuoi ricordi con i tuoi cari, ovunque si trovino."
             }
         }
     },
@@ -90,7 +93,11 @@
             "countries": "paesi",
             "button": "Esplora oltre 1000 cause"
         },
-        "pub_navigate": "Le tue cartoline, un eco per le cause che contano.",
+        "causes": {
+            "button_details": "Dettagli della causa",
+            "participate": "Partecipare",
+            "pub_navigate": "Le tue cartoline, un'eco per le cause che contano."
+        },
         "instawall": {
             "title1": "Più di una cartolina: un social network",
             "title2": "unico",
